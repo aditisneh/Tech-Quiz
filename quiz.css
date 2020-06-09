@@ -1,0 +1,60 @@
+body{
+	
+    background-image: url("C:/aditi_practice/simple_quiz/sky.jpg");
+    height: 100%;
+    width: 100%;
+    min-height: 500px;
+	background-attachment: fixed;
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    position: relative;
+    overflow-x: hidden;
+    font-size: 14px;
+    font-family: 'Arial';
+  
+}
+#container{
+	width:40%;
+	background-color: white;
+	margin: 20px auto;
+	overflow:auto;
+	padding: 25px
+}
+header{
+	text-align: center;
+	border-bottom: lightblue dashed 1px;
+	border: 0px;
+	border-radius: 10px;
+	background-color: #42C0FB;
+}
+header h1{
+		margin: 0;
+	    padding: 0;
+	    color:white;
+}
+header p{
+		margin-top: 15px;
+	    padding: 0;
+	    color: #000;
+
+}
+section{
+	min-height: 400px;
+}
+footer{
+     text-align: center;
+}
+input[type='submit']{
+	background-color: lightblue;
+	border:0;
+	border-radius: 10px;
+	padding: 10px;
+	cursor: pointer;
+}
+#results h3{
+	background-color:#42C0FB;
+	color: white;
+	font-weight: bold;
+
+}
